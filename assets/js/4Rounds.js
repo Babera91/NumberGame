@@ -3,6 +3,7 @@ async function guess(){
     let numb = Number(document.getElementById('text').value)
     if(numb == random){
         document.getElementById('FieldOfText').innerHTML = '!! Your WIN !! Gratulation You Can Be Happy'
+        await sleep(5000);window.location.href = '../../index.html'
     }else if(numb<random){
         document.getElementById('FieldOfText').innerHTML = '!! The Number ist greater !! TRY AGAIN '
         document.getElementById('span').innerHTML = count++
