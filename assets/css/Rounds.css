@@ -1,0 +1,42 @@
+
+body{
+    background-color: rgb(39, 39, 39);
+    color: wheat;
+}
+/* INPUT FIELD*/
+#input{
+    border:solid;
+    margin: 15% auto;
+    width: 60%;
+    padding: 3%;
+    text-align: center;
+}
+#text{
+    width: 50%;
+    font-size: 2em;
+    text-align: center;
+
+}
+#button{
+    margin-top: 14%;
+}
+
+/* TEXT FIELD */
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 900;
+}
+#button{
+    color:wheat;
+    border:solid;
+    background-color:rgb(39, 39, 39) ;
+    padding:2% 5% 3% 5%
+}
+#FieldOfText{
+    margin-top: 10%;
+    font-size: 2em;
+}
