@@ -1,5 +1,5 @@
 // Button function
-async function guess(){
+async function guess2(){
     let numb = Number(document.getElementById('text').value)
     if(numb == random){
         document.getElementById('FieldOfText').innerHTML = '!! Your WIN !! Gratulation You Can Be Happy '
